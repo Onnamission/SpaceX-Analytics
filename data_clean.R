@@ -4,7 +4,6 @@ library(skimr)
 library(lubridate)
 library(readxl)
 library(dplyr)
-library(tm)
 
 
 # Setting working directory
