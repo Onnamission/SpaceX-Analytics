@@ -163,7 +163,7 @@ Assigning numbers to falcons for graphical analysis as per falcon rockets
 
 ## Visualizations
 
-The visualization were made using Tableau.
+The visualization were made using Tableau. The blue color in the CUSTOMER section does not mention Falcon 1. It's just a blue color. That's all.
 
 ![SapceX Dashboard](spacex_dashboard.png)
 
