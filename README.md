@@ -59,7 +59,7 @@ The content of the dataset are as follows:
 | Landing Type | Character |
 | Landing Outcome | Character |
 
-Just for a kind information, I love SpaceX. Thank you to acknowledgement for providing this dataset.
+Just for a kind information, I love SpaceX 😍. Thank you to acknowledgement for providing this dataset.
 
 ![Elon Musk GIF](Images/elon_musk_gif.gif)
 
