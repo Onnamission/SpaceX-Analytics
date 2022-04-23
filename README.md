@@ -1,6 +1,8 @@
 ![Github Repo Release](https://img.shields.io/github/release-date/Onnamission/SpaceX-Analytics)
 ![Github Repo Size](https://img.shields.io/github/repo-size/Onnamission/SpaceX-Analytics)
 ![Github Repo License](https://img.shields.io/github/license/Onnamission/SpaceX-Analytics)
+![Github Repo Maintenance](https://img.shields.io/maintenance/yes/2022)
+![Github Repo Download](https://img.shields.io/github/downloads/Onnamission/SpaceX-Analytics/total)
 
 # SpaceX Analytics
 
