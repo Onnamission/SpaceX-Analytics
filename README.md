@@ -1,3 +1,4 @@
+![Github Repo Release](https://img.shields.io/github/release-date/Onnamission/SpaceX-Analytics)
 ![Github Repo Size](https://img.shields.io/github/repo-size/Onnamission/SpaceX-Analytics)
 ![Github Repo License](https://img.shields.io/github/license/Onnamission/SpaceX-Analytics)
 
