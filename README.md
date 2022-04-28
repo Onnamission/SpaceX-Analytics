@@ -5,7 +5,6 @@
 ![Github Repo Checks](https://badgen.net/github/checks/Onnamission/SpaceX-Analytics/main)
 ![Github Repo Size](https://img.shields.io/github/repo-size/Onnamission/SpaceX-Analytics)
 ![Github Repo License](https://img.shields.io/github/license/Onnamission/SpaceX-Analytics)
-![Github Repo Maintenance](https://img.shields.io/maintenance/yes/2022)
 ![Github Repo Download](https://img.shields.io/github/downloads/Onnamission/SpaceX-Analytics/total)
 ![Github Repo Star Req](https://img.shields.io/badge/%F0%9F%8C%9F-If%20Useful-BC4E99)
 
