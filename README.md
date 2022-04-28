@@ -187,7 +187,7 @@ If you are using this repository, acknowledging it is important.
 
 For support, find me 😂.
 
-## Authors
+## Created by
 
 - [@Onnamission](https://www.github.com/Onnamission)
 
