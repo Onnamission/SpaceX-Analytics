@@ -36,7 +36,7 @@ Now here comes the role on R where you just need to define a function in a pipli
 
 ## Data pipeline in R
 
-```bash
+```r
   data_clean = df %>%
     drop_na()
 ```
@@ -90,7 +90,7 @@ For the payload mass, it cannot be NA or 0. There is no such thing as 0 kg paylo
 
 First the double type was converted to int, then round off and finally the cells which have 0 as a value in the payload mass were removed.
 
-```bash
+```r
   data_clean$payload_mass_kg = as.numeric(data_clean$payload_mass_kg)
   data_clean$payload_mass_kg = round(data_clean$payload_mass_kg)
   data_clean$payload_mass_kg[is.na(data_clean$payload_mass_kg)] = 0
@@ -101,7 +101,7 @@ Same was one with payload type, customer type, and customer country.
 
 Deleting some column which are not needed for analysis.
 
-```bash
+```r
   data_clean = subset(data_clean, select = -c(customer_name,
                                             payload_name,
                                             payload_orbit,
@@ -116,34 +116,34 @@ Also, as per logic if rocket never launched, then how will it land. So, if launc
 
 So, Converting success and failure in 1 and 0 for the total count of launch outcome and landing outcome.
 
-```bash
+```r
   data_clean$launch_outcome[data_clean$launch_outcome == "Success"] = 1
   data_clean$landing_outcome[data_clean$landing_outcome == "Success"] = 1
 ```
 
 Also, in the landing type, the data where it is written None was converted into Unknown and NA values in it was also converted to unknown.
 
-```bash
+```r
   data_clean$landing_type[data_clean$landing_type == "None"] = "Unknown"
 ```
 
 Removing brackets and number is the Character type - Vehicle Type and Launch Site.
 
-```bash
+```r
   data_clean$vehicle_type[data_clean$vehicle_type == "Falcon 9 (v1.0)"] = "Falcon 9"
   data_clean$launch_site[data_clean$launch_site == "Cape Canaveral AFS LC-40"] = "Cape Canaveral"
 ```
 
 Also, renaming Flight number with integer values 1:total number of rows and NA with no failure in the failure reason column.
 
-```bash
+```r
   data_clean$failure_reason[is.na(data_clean$failure_reason)] = "No Failure"
   data_clean$flight_number = c(1:32)
 ```
 
 In the payload type column - communication satellite, research satellite, and research satellites means the same when compared to given value communication/research satellite. So, converted these values with communication/research satellite. 
 
-```bash
+```r
   data_clean$payload_type[data_clean$payload_type == "Research Satellite"] = "Communication/Research Satellite"
 ```
 
@@ -157,14 +157,14 @@ Made four new parameters that are
 
 For mission outcome, both the values in launch outcome and landing outcome should be 1 = success which make more logic. 0 in OR case or both as 0.
 
-```bash
+```r
   data_clean$payload_type[data_clean$payload_type == "Research Satellite"] = "Communication/Research Satellite"
   data_clean$mission_outcome[data_clean$launch_outcome == 0 & data_clean$landing_outcome == 1] = 0
 ```
 
 Assigning numbers to falcons for graphical analysis as per falcon rockets
 
-```bash
+```r
   data_clean$falcon_1[data_clean$falcon_1 == "Falcon 1"] = 1
   data_clean$falcon_9[data_clean$falcon_9 == "Falcon 9"] = 1
   data_clean$falcon_9_full_thrust[data_clean$falcon_9_full_thrust == "Falcon 9 Full Thrust"] = 1
