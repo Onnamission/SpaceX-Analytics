@@ -14,9 +14,9 @@ Analysis of space missions for SpaceX company.
 
 ## Tech Stack
 
-![Made With R](https://img.shields.io/badge/Made%20with-R-red?style=for-the-badge&logo=R)
-![Made With SQL](https://img.shields.io/badge/Made%20with-Excel-darkgreen?style=for-the-badge&logo=MicrosoftExcel)
-![Made With Tableau](https://img.shields.io/badge/Made%20with-Tableau-orange?style=for-the-badge&logo=Tableau)
+![Made With R](https://img.shields.io/badge/-r-165CAA?style=for-the-badge&labelColor=grey&logo=r&logoColor=white)
+![Made With Excel](https://img.shields.io/badge/-excel-darkgreen?style=for-the-badge&labelColor=grey&logo=microsoftexcel&logoColor=white)
+![Made With Tableau](https://img.shields.io/badge/-tableau-orange?style=for-the-badge&labelColor=grey&logo=tableau&logoColor=white)
 
 ## Download
 
@@ -177,20 +177,15 @@ The visualization were made using Tableau. The blue color in the CUSTOMER sectio
 ![SapceX Dashboard](spacex_dashboard.png)
 
 ## 🔗 Links
-[![TABLEAU](https://img.shields.io/badge/tableau-0A66C2?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/aditya.kakde)
+[![TABLEAU](https://img.shields.io/badge/tableau-orange?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/aditya.kakde)
 
 ## Disclaimer
 
 If you are using this repository, acknowledging it is important.
 
-## Support
-
-For support, find me 😂.
-
 ## Created by
 
 - [@Onnamission](https://www.github.com/Onnamission)
-
 
 ## Acknowledgements
 
